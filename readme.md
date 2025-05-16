@@ -1,53 +1,74 @@
-=== Bangla Fonts Library ===
-Contributors: merazalvee
-Donate link: https://www.buymeacoffee.com/merazalvee
-Tags: bangla, fonts, bengali, typography
-Requires at least: 5.2
-Tested up to: 6.8
-Stable tag: 1.0.0
-Requires PHP: 8.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+# Bangla Fonts Library
 
-A lightweight plugin to automatically apply Bangla fonts to Bengali text on your WordPress site, with 10 built-in fonts stored locally.
+![Plugin Banner](assets/banner.png) <!-- Optional: Add a banner image if available -->
 
-== Description ==
-Bangla Fonts Library allows you to easily apply one of 10 built-in Bangla fonts to Bengali text on your WordPress site. Fonts are stored locally for performance and privacy, and the plugin automatically detects and applies the font to Bengali text (even within mixed English text) without requiring lang="bn".
+A lightweight WordPress plugin to automatically apply beautiful Bangla fonts to Bengali text on your website.
 
-*   [Live Demo](https://merazalvee.com/bangla-wordpress-fonts/)	
-*   [Need Help?](https://merazalvee.com/contact/)		
-*   [About Author](https://merazalvee.com)
+## Features
 
-== Installation ==
-1. Upload the `bangla-wordpress-fonts` folder to the `/wp-content/plugins/` directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Then go to the 'Tools' menu and select the 'Bangla Fonts' option. From there, choose your preferred Bangla font and apply it.
-4. Save your changes, and the selected font will be applied to Bengali text.
+- 10+ built-in Bangla fonts stored locally for better performance
+- Automatic detection of Bengali text (no need for lang="bn" attributes)
+- Works with mixed English-Bengali content
+- Simple one-click font selection
+- No external dependencies or Google Fonts required
+- Lightweight and optimized for performance
 
-== Changelog ==
-= 1.0.0 =
-* Initial release with 10 Bangla fonts and admin settings.
+## Installation
 
-== Frequently Asked Questions ==
-= Do I need to install the fonts? =
-No, all fonts are included in the plugin and stored locally.
+1. Upload the `bangla-wordpress-fonts` folder to your `/wp-content/plugins/` directory
+2. Activate the plugin through WordPress admin panel
+3. Go to Tools → Bangla Fonts in your WordPress dashboard
+4. Select your preferred font from the dropdown
+5. Save changes and enjoy beautiful Bangla typography!
 
-= Will this affect non-Bengali text? =
-No, the plugin only applies the selected font to Bengali text detected via Unicode.
+## Supported Fonts
 
-## assets/fonts/
-# Note: Include the following font files in assets/fonts/
-# - Adorsholipi-regular.ttf
-# - Bangla-regular.ttf
-# - Ekushey-Lohit-regular.ttf
-# - Kalpurush-regular.ttf
-# - Likhan-regular.ttf
-# - Lohit-Bengali-regular.ttf
-# - Mukti-Narrow-regular.ttf
-# - Nikosh-regular.ttf
-# - Siyam-Rupali-regular.ttf
-# - Siyam-Rupali-bold.ttf
-# - SolaimanLipi-regular.ttf
-# - SolaimanLipi-bold.ttf
-# If bold variants for other fonts are available, add them (e.g., Adorsholipi-bold.ttf).
-# Ensure fonts are licensed for distribution (e.g., OFL or similar).
+The plugin includes these popular Bangla fonts:
+
+1. Adorsholipi
+2. Bangla
+3. Ekushey-Lohit
+4. Kalpurush
+5. Likhan
+6. Lohit-Bengali
+7. Mukti-Narrow
+8. Nikosh
+9. Siyam-Rupali (regular and bold)
+10. SolaimanLipi (regular and bold)
+
+## Frequently Asked Questions
+
+### Do I need to install fonts manually?
+No, all fonts are included in the plugin package and loaded locally.
+
+### Will this affect my English/other language text?
+No, the plugin automatically detects Bengali text via Unicode ranges and only applies the font to Bengali characters.
+
+### Can I use multiple fonts on the same site?
+Currently the plugin applies one selected font site-wide. For multiple fonts, you would need to use custom CSS classes.
+
+### Is this plugin compatible with page builders?
+Yes, it works with any content including page builders like Elementor, Gutenberg, etc.
+
+## Demo
+
+See the plugin in action: [Live Demo](https://merazalvee.com/bangla-wordpress-fonts/)
+
+## Support
+
+Need help? [Contact the author](https://merazalvee.com/contact/)
+
+## About the Developer
+
+Developed by [Meraz Alvee](https://merazalvee.com), a WordPress enthusiast passionate about Bengali typography.
+
+## Changelog
+
+### 1.0.0
+- Initial release with 10+ Bangla fonts
+- Admin interface for font selection
+- Automatic Bengali text detection
+
+## License
+
+This plugin is licensed under GPLv2 or later.
